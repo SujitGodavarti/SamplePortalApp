@@ -1,0 +1,105 @@
+@import "../../theme/sass/conf/conf";
+@import "../../theme/sass/_loader";
+
+@media screen and (min-width: 1620px) {
+  .row.shift-up {
+    > * {
+      margin-top: -573px;
+    }
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .card.feed-panel.large-card {
+    height: 824px;
+  }
+}
+
+.error-modal-text {
+  color: red;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+table thead td{
+  font-weight: bold;
+  text-align: center;
+}
+
+table tbody tr td{
+  text-align: left; 
+  border-bottom: solid 1px;
+  border-bottom-color: #e7e7e7;
+  border-top: solid 1px;
+  border-top-color: #e7e7e7;    
+}
+
+.btn-link {
+  cursor: pointer;
+}
+
+.selected-link {
+  color: dimgrey;
+}
+
+.figure-title {
+  position: relative;
+  display: inline-block;
+  max-width: 340px;
+  min-width: 340px;
+}
+
+.figure-rows {
+  position: relative;
+  display: inline-block;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.no-right-padding {
+  padding-right: 3px;
+}
+
+.no-left-padding {  
+  padding-left: 3px;
+}
+
+.top-padding {
+  padding-top: 15px;
+}
+
+.padding {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.normal-button {
+  width: 100px;
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.inner-addon input  { 
+  padding-left:  30px; 
+  cursor: pointer;  
+}
+
+.modal-add-padding {
+  padding-left: 30px;
+}
+
+#input-div {
+  max-width: 515px;
+  min-width: 515px;
+}

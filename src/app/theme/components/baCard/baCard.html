@@ -1,0 +1,8 @@
+<div baCardBlur class="animated fadeIn card {{cardSource}} {{baCardClass || ''}}" zoom-in>
+    <div *ngIf="header" class="card-header clearfix">
+        <h3 class="card-title" translate>{{header}}</h3>
+    </div>
+    <div class="card-body" class="noPadding bottomMargin">
+        <ng-content></ng-content>
+    </div>
+</div>
